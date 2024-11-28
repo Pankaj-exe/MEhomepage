@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Product Showcase</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Adjust the margin of the video section dynamically */
+    .video-section {
+      margin-top: 90px; /* Adjust this value if your navbar height changes */
+    }
+
+    /* Set the font color to bold black and background color to white */
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-none">
+    <div class="container-fluid">
+      <!-- Left Section: Logo and Company Name -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="ME_20241118_101241_0000.png" alt="Logo" class="rounded-circle me-2" width="60px">
+        <span class="d-none d-lg-inline" style="font-weight: 800; color: black;">Minions Enterprises</span>
+      </a>
+      <!-- Toggle Button for Mobile View -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Right Section: Links and Search -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-3">
+          <input class="form-control me-2 bg-white text-dark border border-dark" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Video Section -->
+  <div class="container-fluid p-0 position-relative video-section">
+    <video class="w-100" autoplay muted loop>
+      <source src="WhatsApp Video 2024-11-25 at 11.01.18_30fea70a.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="position-absolute top-0 left-0 right-0 bottom-0 bg-dark opacity-50" style="z-index: 0;"></div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container pt-5">
+    <h1>Welcome to MINIONS Enterprises</h1>
+    <p>Slight piece of the shit me make. Little bit of unfucked description and all.</p>
+  </div>
+
+  <!-- Product Cards -->
+  <div class="container mt-5">
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card border-light bg-dark text-light shadow-lg">
+          <div class="card-header bg-primary text-light text-center">Featured Product</div>
+          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Product Image">
+          <div class="card-body">
+            <h5 class="card-title">Product Name 1</h5>
+            <p class="card-text">A short description of the product highlighting its features and benefits.</p>
+            <div class="d-grid">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card border-light bg-dark text-light shadow-lg">
+          <div class="card-header bg-primary text-light text-center">New Arrival</div>
+          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Product Image">
+          <div class="card-body">
+            <h5 class="card-title">Product Name 2</h5>
+            <p class="card-text">A short description of the product highlighting its features and benefits.</p>
+            <div class="d-grid">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card border-light bg-dark text-light shadow-lg">
+          <div class="card-header bg-primary text-light text-center">Best Seller</div>
+          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Product Image">
+          <div class="card-body">
+            <h5 class="card-title">Product Name 3</h5>
+            <p class="card-text">A short description of the product highlighting its features and benefits.</p>
+            <div class="d-grid">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
